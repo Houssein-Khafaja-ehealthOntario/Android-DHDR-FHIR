@@ -1,4 +1,5 @@
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [DHDR-FHIR Android Sample](#dhdr-fhir-android-sample)
 - [Android Features Used](#android-features-used)
 - [Getting Started](#getting-started)
@@ -15,6 +16,7 @@
 
 ## DHDR-FHIR Android Sample
 This is an Android application prototype that makes use of the HL7 HAPI FHIR 3.3.0 Library to connect to [Innovation Lab's Digital Health Drug Repository (DHDR)](https://www.innovation-lab.ca/digital-health-drug-repository-dhdr). It also connects to [Innovation Lab's Provincial Client Registry (PCR) v3](https://www.innovation-lab.ca/Provincial-Client-Registry).
+
 ## Android Features Used
 These are the features that were used to put together this project:
 
@@ -31,7 +33,9 @@ These are the features that were used to put together this project:
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your Android Studio's emulator or on your real Android device.
+### **Prerequisites**
 
+```
 - Android Studio (v3.x)
 - Intel systems may be required to install HAXM
 - This Git Android Project
@@ -64,7 +68,9 @@ If you need or want Intel's hardware acceleration software to speed up your Andr
 - Ensure that you have the proper permissions given to your applicaiton by including the following code in your Android Manifest .xml. If you do not include these permissions, your app wont be able to execute network operations.
 - E.G:
 ```xml
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xx.xxx.xxxxx.dhdr_fhirprototype">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
