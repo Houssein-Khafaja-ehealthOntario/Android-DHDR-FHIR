@@ -44,7 +44,7 @@ These instructions will get you a copy of the project up and running on your And
 ### **Setting up the Dev Environment**
 #### Downloading and installing Android Studio
 First, [download the latest version of Android Studio](https://developer.android.com/studio/).
-The installation process is straightforward, however if you get stuck somewhere, [follow the official installation instructions provided](https://developer.android.com/studio/install).
+The installation process is straightforward, however if you run into any issues, [follow the official installation instructions provided](https://developer.android.com/studio/install).
 
 #### Importing the DHDR-FHIR project into Android Studio
 After cloning or downloading this Git project, go to:
