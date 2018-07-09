@@ -1,3 +1,6 @@
+## DHDR-FHIR Android Sample
+This is an Android application prototype that makes use of the HL7 HAPI FHIR 3.3.0 Library to connect to [Innovation Lab's Digital Health Drug Repository (DHDR)](https://www.innovation-lab.ca/digital-health-drug-repository-dhdr). It also connects to [Innovation Lab's Provincial Client Registry (PCR) v3](https://www.innovation-lab.ca/Provincial-Client-Registry).
+
 ## Table of Contents
 - [Android Features Used](#android-features-used)
 - [Getting Started](#getting-started)
@@ -11,9 +14,6 @@
 - [Authors](#authors)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-
-## DHDR-FHIR Android Sample
-This is an Android application prototype that makes use of the HL7 HAPI FHIR 3.3.0 Library to connect to [Innovation Lab's Digital Health Drug Repository (DHDR)](https://www.innovation-lab.ca/digital-health-drug-repository-dhdr). It also connects to [Innovation Lab's Provincial Client Registry (PCR) v3](https://www.innovation-lab.ca/Provincial-Client-Registry).
 
 ## Android Features Used
 These are the features that were used to put together this project:
