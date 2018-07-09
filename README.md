@@ -1,6 +1,4 @@
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [DHDR-FHIR Android Sample](#dhdr-fhir-android-sample)
 - [Android Features Used](#android-features-used)
 - [Getting Started](#getting-started)
     - [**Prerequisites**](#prerequisites)
