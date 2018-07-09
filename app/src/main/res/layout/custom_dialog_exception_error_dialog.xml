@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:background="@drawable/layout_border">
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/myriad_pro_condensed"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Oops! Something went wrong..."
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        app:srcCompat="@android:drawable/stat_notify_error" />
+
+    <TextView
+        android:id="@+id/errorItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/myriad_pro_condensed"
+        android:gravity="center"
+        android:text="An Error Has Occured!"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/errorOkayButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <Button
+        android:id="@+id/errorOkayButton"
+        android:layout_width="111dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/myriad_pro_condensed"
+        android:onClick="showPatientViewDialog"
+        android:text="Okay"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

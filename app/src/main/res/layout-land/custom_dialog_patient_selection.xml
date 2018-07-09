@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/layout_border">
+
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/myriad_pro_condensed"
+        android:onClick="showPatientViewDialog"
+        android:text="Cancel"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/myriad_pro_condensed"
+        android:onClick="showPatientViewDialog"
+        android:text="Start Query"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/myriad_pro_condensed"
+        android:text="Select a patient to start a query"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/patientsDropDown"
+        android:layout_width="220dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/layout_border_thin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/patientsDropDown"
+        app:layout_constraintTop_toTopOf="@+id/patientsDropDown"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+</android.support.constraint.ConstraintLayout>

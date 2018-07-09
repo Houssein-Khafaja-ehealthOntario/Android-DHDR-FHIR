@@ -1,0 +1,1 @@
+include ':app', ':everest-core-1.1.0', ':everest-formatters-xml-dt-r1-1.1.0', ':everest-formatters-xml-its1-1.1.0', ':everest-rmim-uv-cdar2-1.1.0', ':everest-rmim-ca-r02-04-03-1.1.0', ':org.marc.everest', ':everest-core-1.1.0-sources', ':everest-formatters-xml-dt-r1-1.1.0-sources', ':everest-formatters-xml-its1-1.1.0-sources', ':everest-connectors-spring-1.1.0'

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/everest-connectors-spring-1.1.0" />
+            <option value="$PROJECT_DIR$/everest-core-1.1.0" />
+            <option value="$PROJECT_DIR$/everest-core-1.1.0-sources" />
+            <option value="$PROJECT_DIR$/everest-formatters-xml-dt-r1-1.1.0" />
+            <option value="$PROJECT_DIR$/everest-formatters-xml-dt-r1-1.1.0-sources" />
+            <option value="$PROJECT_DIR$/everest-formatters-xml-its1-1.1.0" />
+            <option value="$PROJECT_DIR$/everest-formatters-xml-its1-1.1.0-sources" />
+            <option value="$PROJECT_DIR$/everest-rmim-ca-r02-04-03-1.1.0" />
+            <option value="$PROJECT_DIR$/everest-rmim-uv-cdar2-1.1.0" />
+            <option value="$PROJECT_DIR$/org.marc.everest" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DHDR-FHIR ProtoType</string>
+    <string name="main_message">Select a view to request DHDR information:</string>
+    <string name="footer_desc">This is the footer image depicting the logo of the province of Ontario.</string>
+    <string name="eHO_Image_desc">This is the logo of eHealth Ontario (usually displayed at the top of a screen)</string>
+    <string name="practitioner_view_btn_name">Practitioner View</string>
+    <string name="patient_view_btn_name">Patient View</string>
+    <string name="pharmacist_view_btn_name">Pharmacist View</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prescription_wait_list_header_text">Prescription Wait List</string>
+    <string name="circles_desc">A purple circle semi-overlapping on a blue circle.</string>
+</resources>
