@@ -136,10 +136,20 @@ public class PCRAsyncTask extends AsyncTask<String, Void, ArrayList<PCRPatientMo
             pcrPatient.setDispenseTotal(totalDispenses);
             pcrPatient.setDurTotal(durTotal);
             pcrPatient.setConsentGiven(isConsentGiven);
-            results.add(pcrPatient);
+
+            if (!pcrPatient.getName().trim().equals(""))
+            {
+                results.add(pcrPatient);
+            }
         }
 
         cursor.close();
+
+        if (results.size() == 0)
+        {
+            // then we did not find any patients in PCR
+            exceptionCodeHolder = 404;
+        }
 
         // return the result bundle for onPostExecute
         return results;
