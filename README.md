@@ -63,6 +63,7 @@ Once you have installed Android Studio and you've imported the Android Studio pr
 If you need or want Intel's hardware acceleration software to speed up your Android emulation on Android Studio, then [follow these instructions](https://developer.android.com/studio/run/emulator-acceleration). This is highly recommended for developers running Intel CPUs.
 
 ## Important Notes For Developers
+- Ensure that you replace the string literal: "your unique identifier" with your actual Innovation Lab Unique Identifier in two places: DHDRService.java and PCRService.java. You will need to sign up on [Innovation Lab](https://www.innovation-lab.ca/register/).
 - Ensure that you have the proper permissions given to your applicaiton by including the following code in your Android Manifest .xml. If you do not include these permissions, your app wont be able to execute network operations.
 - E.G:
 ```xml
